@@ -3,3 +3,6 @@ LOG:  MultiXact member wraparound protections are now enabled
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
 FATAL:  database "sally_development" does not exist
+ERROR:  type "password_digest" does not exist
+STATEMENT:  ALTER TABLE "accounts" ALTER COLUMN "password" TYPE password_digest
+FATAL:  database "sally_development" does not exist
